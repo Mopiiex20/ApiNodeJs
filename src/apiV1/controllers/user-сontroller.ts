@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { set } from "mongoose"
-import { users } from "../models/userModel";
+import { users } from "../models/user-model";
 
 export default class UserController {
 

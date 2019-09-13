@@ -4,7 +4,7 @@ import * as express from 'express';
 import * as helmet from 'helmet';
 import * as morgan from 'morgan';
 import apiV1 from '@apiV1/index';
-import * as errorHandler from '@helpers/errorHandler';
+import * as errorHandler from '@helpers/error-handler';
 
 class App {
   

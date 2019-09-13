@@ -1,6 +1,6 @@
 import app from "./App";
 import CONFIG from "@config/config";
- import "@config/dbСonnect";
+ import "@config/db-connect";
 
 const PORT = CONFIG.PORT;
 

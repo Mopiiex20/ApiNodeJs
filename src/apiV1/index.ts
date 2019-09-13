@@ -1,8 +1,8 @@
 import { Router } from "express";
-import auth from "./route/authRoute";
-import signUp from "./route/authRoute";
-import users from "./route/userRoute"
-import products from "./route/productsRoute";
+import auth from "./route/auth-route";
+import signUp from "./route/auth-route";
+import users from "./route/user-route"
+import products from "./route/products-route";
 
 const router: Router = Router();
 

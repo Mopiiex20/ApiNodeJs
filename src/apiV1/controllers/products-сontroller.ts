@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ProductService } from "@services/productsService";
+import { ProductService } from "@services/products-service";
 
 export default class ProductsController {
   public getProducts = async (res: Response): Promise<any> => {

@@ -1,4 +1,4 @@
-import { books } from "@apiV1/models/productsModel";
+import { books } from "@apiV1/models/products-model";
 
 
 export class ProductService {

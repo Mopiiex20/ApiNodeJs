@@ -2,7 +2,7 @@ import * as bcrypt from "bcrypt";
 import { Request, Response } from "express";
 import * as jwt from "jwt-then";
 import config from "@config/config";
-import { AuthService, user } from "@services/authService";
+import { AuthService, user } from "@services/auth-service";
 
 export default class UserController {
   public authenticate = async (req: Request, res: Response): Promise<any> => {

@@ -1,4 +1,4 @@
-import { authModel } from "@apiV1/models/authModel";
+import { authModel } from "@apiV1/models/auth-model";
 
 export interface user {
   _id: number;
