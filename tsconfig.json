@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "baseUrl": "src", // This must be specified if "paths" is.
+    "paths": {
+      "@apiV1/*": [
+        "apiV1/*"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ]
+    }
+  }
+}
